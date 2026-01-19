@@ -1,15 +1,10 @@
-import math  
+import math
 
-def main(t):
 A = int(input("Enter the Length of the first side (A): ")) #TO DO  
 B = int(input("Enter the Length of the first side (B): "))
-    C=pythag(A,B)
-print(C)
 
+C = A**2 + B**2
 
+result = math.sqrt(C)
 
-def pythag(A,B):
-#TO DO  
-t = A**2 + B**2
-result = math.sqrt(t)
-main()
+print (f"The length of side C is, {result}" )
